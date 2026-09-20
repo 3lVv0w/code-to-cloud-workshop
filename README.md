@@ -5,7 +5,7 @@
 **Industry Partners & Sponsors:** PROEN Corp Public Company Limited, VMware by Broadcom  
 **Event Date & Time:** Monday, September 21, 2026 | 08:30 – 17:00 ICT (`Asia/Bangkok`)  
 **Venue:** ClassRoom 3, True Digital Park, Bangkok, Thailand  
-**Canonical Portal:** [https://event-admin.gracer.co.th/organization/2/event/30/](https://event-admin.gracer.co.th/organization/2/event/30/)  
+**Canonical Portal:** [https://events.gracer.co.th/event/detail/f6dpl5d4v0d-1788785028656](https://events.gracer.co.th/event/detail/f6dpl5d4v0d-1788785028656)  
 **Document Classification:** Technical Architecture & Hands-on Workshop Curriculum  
 **Architect Roles:** Lead Cloud Architect & Principal Systems Architect
 
