@@ -31,7 +31,12 @@ tmp/
 scratch/
 
 # Generated Presentation HTML & Assets
+*.html
+slides/*.html
 presentation.html
+presentation-th.html
 slides/presentation.html
+slides/presentation-th.html
 assets/
+
 

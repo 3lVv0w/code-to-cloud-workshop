@@ -23,6 +23,11 @@ This syllabus and technical repository serves as the definitive reference manual
 4. **Cloud Runtimes:** Leveraging abstraction platforms (VMware Tanzu / Buildpacks) to eliminate infrastructure boilerplate.
 5. **GitOps Engine:** Enforcing declarative system reconciliation, self-healing, and zero-trust cluster isolation using **Argo CD** on **PROEN Cloud** infrastructure.
 
+### Official Masterclass Presentation Slides
+- **English Edition (16:9 Landscape PDF):** [**`slides/presentation.pdf`**](slides/presentation.pdf) (48 Slides)
+- **Thai Edition / ฉบับภาษาไทย (16:9 Landscape PDF):** [**`slides/presentation-th.pdf`**](slides/presentation-th.pdf) (48 Slides)
+- **Interactive Presentation Deck:** Available locally at `slides/presentation.html` (EN) and `slides/presentation-th.html` (TH) with instant language toggle and keyboard navigation.
+
 ---
 
 ## 2. End-to-End Cloud-Native Delivery Topology
