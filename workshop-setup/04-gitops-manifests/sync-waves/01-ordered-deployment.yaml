@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order-service-wave1
+  annotations:
+    argocd.argoproj.io/sync-wave: "1" # Wave 1: Only rolls out after Wave 0 job achieves Success
+  labels:
+    app.kubernetes.io/name: order-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: order-service
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: order-service
+    spec:
+      containers:
+        - name: order-service
+          image: registry.proen.cloud/gvents/order-service:1.3.0
+          ports:
+            - containerPort: 3000

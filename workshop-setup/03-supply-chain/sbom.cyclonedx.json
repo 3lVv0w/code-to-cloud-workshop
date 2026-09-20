@@ -1,0 +1,13 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:D3FDCD08-ED88-4ED2-938C-A4C190464FA7",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "name": "gvents-workshop-order-service",
+      "version": "1.3.0",
+      "type": "application"
+    }
+  }
+}

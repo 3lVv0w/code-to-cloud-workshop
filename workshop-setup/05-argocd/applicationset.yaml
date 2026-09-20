@@ -1,0 +1,33 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: gvents-multi-env-generator
+  namespace: argocd
+spec:
+  generators:
+    - list:
+        elements:
+          - env: staging
+            namespace: staging
+            cluster: https://kubernetes.default.svc
+          - env: production
+            namespace: production
+            cluster: https://kubernetes.default.svc
+  template:
+    metadata:
+      name: 'order-service-{{env}}'
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/3lVv0w/code-to-cloud-workshop.git
+        targetRevision: main
+        path: 'workshop-setup/04-gitops-manifests/overlays/{{env}}'
+      destination:
+        server: '{{cluster}}'
+        namespace: '{{namespace}}'
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace=true
